@@ -6,12 +6,8 @@ get '/' do
 end
 
 get '/home' do
-  erb :index
-end
-
-get '/contacts' do
   @contacts = Contact.all
-  erb :contacts
+  erb :index
 end
 
 after do
