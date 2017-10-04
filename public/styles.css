@@ -58,7 +58,7 @@ main h1 {
   font-size: 1em;
 }
 
-main h1 span {
+main h1 span{
   font-weight: 600;
   border-bottom: solid 2px rgb(95, 227, 203);
 }
@@ -82,7 +82,13 @@ footer {
   text-align: center;
   font-size: 0.8em;
   padding: 1.2em;
-  position: absolute;
+  position: fixed;
   bottom: 0px;
   width: 100%;
+}
+
+.details {
+  font-weight: 400;
+  padding-left: 1em;
+  border: none;
 }
