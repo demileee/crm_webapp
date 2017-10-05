@@ -1,6 +1,7 @@
 <ul>
   <li>
     <h2> <%= @contact.first_name %> <%= @contact.last_name %></h2>
+    <p><a href="/contact/<%= @contact.id %>/edit">Edit</a> | <a href="/contact/<%= @contact.id %>/delete">Delete</a></p>
   </li>
   <li><h1> <span>Email:</span> <span class="details"><%= @contact.email %></span></h1>
   <h1> <span>Notes:</span> <span class="details"><%= @contact.note %></span></h1></li>
